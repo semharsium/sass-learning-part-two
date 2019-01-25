@@ -1,0 +1,22 @@
+{
+  "name": "sass-learning-part-two",
+  "version": "1.0.0",
+  "description": "just learning sass - part two",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/semharsium/sass-learning-part-two.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/semharsium/sass-learning-part-two/issues"
+  },
+  "homepage": "https://github.com/semharsium/sass-learning-part-two#readme",
+  "devDependencies": {
+    "sass": "^1.16.1"
+  }
+}
