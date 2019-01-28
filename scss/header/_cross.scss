@@ -1,0 +1,15 @@
+.cross{
+    background:none;
+    position:absolute;
+    top:13px;
+    right:16px;
+    padding:7px 15px 0px 15px;
+    color:$color;
+    border:0;
+    font-size:3em;
+    line-height:65px;
+    font-weight:bold;
+    cursor:pointer;
+    outline:none;
+    z-index:10000000000000;
+  }
