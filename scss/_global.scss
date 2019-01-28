@@ -1,0 +1,9 @@
+.helping__container{
+    width:$width;
+  }
+  .content__container{
+    width: $width;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+  }
