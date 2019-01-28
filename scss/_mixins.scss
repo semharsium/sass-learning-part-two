@@ -4,7 +4,7 @@
     }
 }
 
-@mixin xlarg-up {
+@mixin xlarge-up {
     @media screen and (min-width: 700px){
         @content;
     }
