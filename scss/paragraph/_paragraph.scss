@@ -1,0 +1,17 @@
+$pattern: "paragraph";
+
+.#{$pattern} {
+    .#{$pattern} {
+        &__content {
+            &--home,
+            &--aboutme{
+                margin-bottom: 14px;
+                font-size: 22px;
+            }
+        }
+
+        &__link {
+            color: #ffc900;
+        }
+    }
+}
