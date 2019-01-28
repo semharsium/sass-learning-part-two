@@ -1,3 +1,8 @@
-.container {
-    color: blue
+@import 'variables.scss';
+@import 'header/header.scss';
+@import 'navigation/navigation.scss';
+@import 'slider-image/slider-image.scss';
+
+.helping__container{
+  width:$width;
 }
