@@ -1,0 +1,11 @@
+$pattern:"panel";
+
+.#{$pattern}{
+    &__content{
+        display: none;
+    }
+    &__content--active{
+        display: block;
+        }
+}
+
