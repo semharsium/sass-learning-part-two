@@ -1,6 +1,6 @@
 @import '../mixins.scss';
 @import 'hamburger.scss';
-@import 'cross.scss';
+@import './cross/cross.scss';
 .header{
     width: 100%;
     height: auto;
