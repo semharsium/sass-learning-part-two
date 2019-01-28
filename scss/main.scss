@@ -1,6 +1,10 @@
 @import 'variables.scss';
 @import 'header/header.scss';
-@import 'navigation/navigation.scss';
+@import 'header/navigation/navigation';
 @import 'slider-image/slider-image.scss';
-@import 'g-helping-container.scss';
-
+@import 'global.scss';
+@import 'content-container/content-container';
+@import 'aside-container/aside-container';
+@import 'heading-mini/heading-mini';
+@import 'profileimage/profile-image.scss';
+@import 'paragraph/paragraph';
