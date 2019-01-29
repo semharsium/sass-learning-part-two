@@ -1,118 +1,115 @@
-@import '../mixins.scss';
-@import 'hamburger.scss';
-@import './cross/cross.scss';
-.header{
+@import "../mixins.scss";
+@import "hamburger.scss";
+@import "./cross/cross.scss";
+.header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 4px solid #ffc900;
+
+  &__navigation {
+    text-align: center;
+    background-color: black;
     width: 100%;
-    height: auto;
+
+    & .navigation {
+      &__menu {
+        background-color: #181818;
+        padding-top: 10px;
+        padding-inline-start: unset;
+        margin: 0;
+      }
+    }
+  }
+
+  & .heading {
+    font-size: 25px;
+    white-space: nowrap;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    line-height: 1.5;
+    border-bottom: 1px solid black;
+    font-family: "Roboto Mono", monospace;
+    margin: 0;
+
+    &:hover {
+      text-decoration: underline;
+      color: #ffc900;
+    }
+  }
+
+  & .header__logo {
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 36px;
+    width: 63px;
+    transform: translateY(-50%);
+  }
+}
+@include small-up {
+  .header {
+    width: $width;
+    height: $height;
     display: flex;
     flex-wrap: wrap;
-    border-bottom: 4px solid #ffc900;
+    border-bottom: 4px solid $color;
 
-    &__navigation{
-        text-align: center;
-        background-color:black;
-        width: 100%;
-        
-        &-inner{
-            position: relative;
-            min-height: 83px;
-            background-color: $background-color;
+    &__navigation {
+      text-align: center;
+      background-color: $background-color;
+      width: $width;
+
+      &-inner {
+        position: relative;
+        min-height: 83px;
+        background-color: $background-color;
+      }
+
+      & .navigation {
+        &__menu {
+          display: none;
+          background-color: $background-color;
+          padding-top: 10px;
         }
-        
-        & .navigation{
-            &__menu{
-                display: none;
-                background-color: $background-color;
-                padding-top: 10px;
-            }
-        }
+      }
     }
 
-    &__menu{
-        font-size: 23px;
-        font-weight: 600;
-        cursor: pointer;
-        color: white;
-        font-family: 'Open Sans Condensed', sans-serif;
-        font-family: 'Roboto Mono', monospace;
-        transform: translateY(-50%);
+    &__menu {
+      font-size: 25px;
+      white-space: nowrap;
+      font-weight: 600;
+      cursor: pointer;
+      color: white;
+      line-height: 1.5;
+      border-bottom: 1px solid black;
+      font-family: "Open Sans Condensed", sans-serif;
+      font-family: "Roboto Mono", monospace;
 
-            &:hover{
-                text-decoration: underline;
-                color: #ffc900;
-            }
+      &:hover {
+        text-decoration: underline;
+        color: $color;
+      }
     }
 
-    & .header__logo{
-        z-index: 1;
-        position: absolute;
-        top: 50%;
-        left: 36px;
-        width: 63px;
-        transform: translateY(-50%);
+    &-logo {
+      z-index: 1;
+      position: absolute;
+      top: 50%;
+      left: 36px;
+      width: 63px;
+      transform: translateY(-50%);
     }
-}
-@include small-up{
-    .header{
-        width:$width;
-        height:$height;
-        display: flex;
-        flex-wrap: wrap;
-        border-bottom: 4px solid $color;
-
-        &__navigation{
-            text-align: center;
-            background-color:$background-color;
-            width:$width;
-        
-            &-inner{
-                position: relative;
-                min-height: 83px;
-                background-color:$background-color;
-            }
-        
-            & .navigation{
-                &__menu{
-                    display: none;
-                    background-color: $background-color;
-                    padding-top: 10px;
-                }
-            }
-        }
-
-        &__menu{
-            font-size: 25px;
-            white-space: nowrap;
-            font-weight: 600;
-            cursor: pointer;
-            color: white;
-            line-height: 1.5;
-            border-bottom: 1px solid black;
-            font-family: 'Open Sans Condensed', sans-serif;
-            font-family: 'Roboto Mono', monospace;
-
-                &:hover{
-                    text-decoration: underline;
-                    color: $color;
-                }
-        }
-
-        &-logo{
-            z-index: 1;
-            position: absolute;
-            top: 50%;
-            left: 36px;
-            width: 63px;
-            transform: translateY(-50%);
-        }
-    }
+  }
 }
 
-@include xlarge-up{
-    .hamburger{
-        display: none;
-    }
-    .cross{
-        display: none;
-    }
+@include xlarge-up {
+  .hamburger {
+    display: none;
+  }
+  .cross {
+    display: none;
+  }
 }
