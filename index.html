@@ -12,39 +12,46 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Roboto+Mono" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./libraries/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="./libraries/slick/slick-theme.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
 </head>
 
 <body>
     <header class="header">
-        <nav class="js-navigation header__navigation header__navigation--white">
-            <div class="header__navigation-inner">
-                <div class="header__logo-container">
-                    <a target="_self" href="index.html">
-                        <img src="./img/information-icon-200x212.png" class="header__logo">
-                    </a>
+        <div class="header__navigation">
+            <nav class="navigation">
+                <div class="navigation__container navigation__container--white">
+                    <div class="navigation__hamburger-menu">
+                        <div class="navigation__logo-container">
+                            <a target="_self" href="index.html">
+                                <img src="./img/information-icon-200x212.png" class="header__logo">
+                            </a>
+                        </div>
+                        <button class="hamburger">&#9776;</button>
+                        <button class="cross">&#735;</button>
+                    </div>
+                    <div class="navigation__menu">
+                        <ul class="js-navigation__item-container navigation__item-container">
+                            <li class="navigation__menu-item">
+                                <a class="js-button" href="#" data-panel-connector="home">
+                                    <h2 class="heading  heading--navigation-item">Home</h2>
+                                </a>
+                            </li>
+                            <li class="navigation__menu-item">
+                                <a class="js-button" href="#" data-panel-connector="aboutme">
+                                    <h2 class="heading  heading--navigation-item">AboutMe</h2>
+                                </a>
+                            </li>
+                            <li class="navigation__menu-item">
+                                <a class="js-button" href="#" data-panel-connector="project">
+                                    <h2 class="heading  heading--navigation-item">Project</h2>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <button class="hamburger">&#9776;</button>
-                <button class="cross">&#735;</button>
-            </div>
-            <ul class="js-navigation__menu navigation__menu">
-                <li class="navigation__list-item">
-                    <a class="js-button" href="#" data-panel-connector="home">
-                        <h2 class="header__menu header__menu--home">Home</h2>
-                    </a>
-                </li>
-                <li class="navigation__list-item">
-                    <a class="js-button" href="#" data-panel-connector="aboutme">
-                        <h2 class="header__menu header__menu--aboutme">AboutMe</h2>
-                    </a>
-                </li>
-                <li class="navigation__list-item">
-                    <a class="js-button" href="#" data-panel-connector="project">
-                        <h2 class="header__menu header__menu--project">Project</h2>
-                    </a>
-                </li>
-            </ul>
-        </nav>
+            </nav>
+        </div>
     </header>
 
     <div class="panel__content panel__content--home panel__content--active js-panel-home" data-panel="home">
@@ -61,7 +68,7 @@
                     <div class="content__container-text">
                         <aside class="aside__container aside__container--content">
                             <h2 class="heading heading__mini--shortdescription">Short about me.........,</h2>
-                            <p class="pharagrah__content pharagrah__content--home"> My name is Semhar Sium from
+                            <p class="paragraph paragraph--home"> My name is Semhar Sium from
                                 Eritrea. I have studied Accounting in my country
                                 and in Switzerland I have learned coding in
                                 powercoders, a coding academy for refugees. Currently
@@ -78,7 +85,7 @@
                             <div class="aside__container-header">
                                 <h1 class="heading heading__mini--skills">Skills</h1>
                             </div>
-                            
+
                             <li>Markup Language, Html</li>
                             <li>Markup Language, Css</li>
                             <li>Programming Languages, Js</li>
@@ -100,11 +107,11 @@
                     </div>
                     <div class="description__aboutme">
                         <h2 class="heading heading__mini--aboutme">AboutMe</h2>
-                        <p class="pharagrah__content pharagrah__content--aboutme">My name is Semhar Sium from Eritrea.
+                        <p class="paragraph__content paragraph__content--aboutme">My name is Semhar Sium from Eritrea.
                             Now I live in Embrach(ZH) with my kids and my husband.
                             In my country I have completed Bachelor Degree in
                             Accounting and I have learned coding in
-                            <a class="pharagrah__link" href="http://powercoders.org/" target="_blank">powercoders</a>,
+                            <a class="paragraph__link" href="http://powercoders.org/" target="_blank">powercoders</a>,
                             a coding academy for refugees. In my first week of my internship in Namics AG,
                             I did Lisa Simpson Carton with only Html and Css as my first project which every one was
                             intersted on her. In my free time I search in internet
@@ -165,7 +172,7 @@
 
     </div>
     <footer class="footer__container">
-       <div class="footer__contact-icons">
+        <div class="footer__contact-icons">
             <h2 class="footer__socialnetwork">Contact me</h2>
             <div class="footer__icon-container">
                 <a href="https://www.google.ch" target="_blank" class="footer-image__icon">
@@ -181,7 +188,7 @@
                     <i class="footer__icon far fa-envelope"></i>
                 </a>
             </div>
-       </div>
+        </div>
         <div class="footer__paragraph">
             <p>Copyright@semhar.com</p>
         </div>
