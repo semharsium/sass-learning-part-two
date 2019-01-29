@@ -16,7 +16,7 @@
     & .navigation {
       &__menu {
         background-color: #181818;
-        padding-top: 10px;
+        padding-top: 0px;
         padding-inline-start: unset;
         margin: 0;
       }
@@ -61,12 +61,6 @@
       text-align: center;
       background-color: $background-color;
       width: $width;
-
-      &-inner {
-        position: relative;
-        min-height: 83px;
-        background-color: $background-color;
-      }
 
       & .navigation {
         &__menu {
