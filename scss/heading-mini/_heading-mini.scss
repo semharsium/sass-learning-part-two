@@ -3,6 +3,10 @@
 $pattern: "heading";
 
 .#{$pattern} {
+    &__mini--skills{
+        font-size: 30px;
+        font-family: $font-heading;
+    }
     .#{$pattern} {
         &__mini {
             font-family: $font-heading;
