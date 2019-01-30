@@ -1,11 +1,20 @@
 $pattern:"panel";
 
 .#{$pattern}{
-    &__content{
-        display: none;
-    }
-    &__content--active{
+    display: none;
+    &--active{
         display: block;
         }
+    &__silder-image{
+        .slick-prev, 
+        .slick-next {
+            &::before, 
+            &:hover::before,
+            &:focus::before {
+                color:white;
+                font-size: 35px; 
+            }
+        }
+    }
 }
 

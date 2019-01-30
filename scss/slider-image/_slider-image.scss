@@ -1,61 +1,41 @@
-$pattern:"slick-slide";
+$pattern: "slick-slide";
 
-.alignment{
-    &__image{
-        background-position: center;
-        background-size: cover;
-        
-        &.alignment{
-            &__image--one{
-                background-image: url("../img/powercoders1.jpg");
-                background-position: center;
-            }
-            &__image--two{
-                background-image: url("../img/powercoders2.jpg");
-                background-size: cover;
-                background-position: bottom;
-            }
-            &__image--six{
-                background-image: url("../img/powercoders6.jpg");
-                background-size: cover;
-            }
-            &__image--seven{
-                background-image: url("../img/powercoders7.jpg");
-                background-size: cover;
-            }
-            &__image--eight{
-                background-image: url("../img/powercoders8.jpg");
-                background-size: cover;
-            }
-        }
-    }
-}
-
-.slick-prev{
-    z-index: 1;
-    left: 35px !important;
-}
-  .slick-next {
-    z-index: 1;
-    right: 35px !important;
-}
-  
 .slider-image {
-    &__container{
-        .slick-prev, 
-        .slick-next {
-            &::before, 
-            &:hover::before,
-            &:focus::before {
-                color:white;
-                font-size: 35px; 
-            }
-        }
-    }
+  background-position: center;
+  background-size: cover;
+  &--one {
+    background-image: url("../img/powercoders1.jpg");
+    background-position: center;
+  }
+  &--two {
+    background-image: url("../img/powercoders2.jpg");
+    background-size: cover;
+    background-position: bottom;
+  }
+  &--three {
+    background-image: url("../img/powercoders3.jpg");
+    background-size: cover;
+  }
+  &--four {
+    background-image: url("../img/powercoders4.jpg");
+    background-size: cover;
+  }
+  &--five {
+    background-image: url("../img/powercoders5.jpg");
+    background-size: cover;
+  }
 }
 
-.#{$pattern}{
-    &.alignment__image{
-        height: 50vw;
-    }
+.slick-prev {
+  z-index: 1;
+  left: 35px !important;
+}
+.slick-next {
+  z-index: 1;
+  right: 35px !important;
+}
+.#{$pattern} {
+  &.slider-image {
+    height: 50vw;
+  }
 }

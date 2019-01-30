@@ -12,10 +12,10 @@ $(document).ready(function() {
 
     function jumpToPanel(panelId) {
         // deactivating panel
-        $(".panel__content--active").removeClass("panel__content--active");
+        $(".panel--active").removeClass("panel--active");
 
         // activating panel
-        $(".panel__content[data-panel='" + panelId +  "']").addClass("panel__content--active");
+        $(".panel[data-panel='" + panelId +  "']").addClass("panel--active");
     };
     
     var searchString = window.location.search;
@@ -29,10 +29,10 @@ $(document).ready(function() {
         //var panel= $(event.currentTarget).data('panel-connector');
         var panel = this.dataset.panelConnector;
         jumpToPanel(panel);
-        $('.slider-image__container').slick('refresh');
+        $('.panel__slider-image').slick('refresh');
     });
 
-    $('.slider-image__container').slick({
+    $('.panel__slider-image').slick({
         slidesToshow:1,
         slidesToScroll:1,
         arrows: true,
@@ -44,6 +44,6 @@ $(document).ready(function() {
     $(".js-about-me").click(function(){
         var panel = this.dataset.panelConnector;
         jumpToPanel(panel);
-        $('.slider-image__container').slick('refresh');
+        $('.panel__slider-image').slick('refresh');
     });
 });
