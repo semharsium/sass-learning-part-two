@@ -190,8 +190,9 @@
 .slick-slide.slider-image {
   height: 50vw;
 }
+
 .slick-slider .slick-prev::before, 
-.slick-slider .slick-prev:hover::before,
+.slick-slider .slick-prev:hover::before, 
 .slick-slider .slick-prev:focus::before,
 .slick-slider .slick-next::before,
 .slick-slider .slick-next:hover::before,
@@ -227,6 +228,10 @@
 }
 .content__description {
   margin: 20px;
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+  align-items: center;
 }
 .heading__mini--skills {
   font-size: 30px;
@@ -246,7 +251,6 @@
   font-size: 40px;
   text-align: center;
 }
-
 .profile-image {
   width: 50%;
   height: auto;
@@ -261,6 +265,9 @@
   line-height: 1.2;
 }
 .paragraph__content .about-me {
+  color: #ffc900;
+}
+.paragraph__content__link {
   color: #ffc900;
 }
 .footer__container {
