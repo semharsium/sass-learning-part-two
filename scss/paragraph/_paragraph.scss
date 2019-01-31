@@ -1,19 +1,18 @@
 $pattern: "paragraph";
 
 .#{$pattern} {
-    &__content {
-        &--home,
-        &--aboutme{
-            margin-bottom: 14px;
-            font-size: 19px;
-            line-height: 1.2;
-        }
-        & .about-me {
-            color: $color;
-        }
-    
-        &__link {
-            color: $color;
-        }
+  &__link {
+    color: $color;
+  }
+  &__content {
+    &--home,
+    &--aboutme {
+      margin-bottom: 14px;
+      font-size: 19px;
+      line-height: 1.2;
     }
+    & .about-me {
+      color: $color;
+    }
+  }
 }
