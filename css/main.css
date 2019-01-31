@@ -224,6 +224,9 @@
   margin-top: 60px;
   margin-bottom: 30px;
 }
+.content__description {
+  margin: 20px;
+}
 
 .heading__mini--skills {
   font-size: 30px;
@@ -244,7 +247,7 @@
   text-align: center;
 }
 
-.profileimage {
+.profile-image {
   width: 50%;
   height: auto;
   margin: 7% 17% 5% 17%;
