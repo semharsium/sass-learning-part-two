@@ -191,7 +191,13 @@
   height: 50vw;
 }
 
+<<<<<<< HEAD
 .slick-slider .slick-prev::before, .slick-slider .slick-prev:hover::before, .slick-slider .slick-prev:focus::before,
+=======
+.slick-slider .slick-prev::before, 
+.slick-slider .slick-prev:hover::before, 
+.slick-slider .slick-prev:focus::before,
+>>>>>>> fce2315e22413c57715ffc694c342cb9d229d1d4
 .slick-slider .slick-next::before,
 .slick-slider .slick-next:hover::before,
 .slick-slider .slick-next:focus::before {
@@ -209,6 +215,7 @@
 .content__container-text {
   margin: 20px;
 }
+<<<<<<< HEAD
 .content__introduction--short {
   width: 100%;
   height: auto;
@@ -216,6 +223,10 @@
   align-items: center;
 }
 .content__skills--lists {
+=======
+
+.aside__container--lists-skills {
+>>>>>>> fce2315e22413c57715ffc694c342cb9d229d1d4
   font-size: 20px;
   line-height: 1.5;
   width: 100%;
@@ -224,8 +235,16 @@
   margin-top: 60px;
   margin-bottom: 30px;
 }
+<<<<<<< HEAD
 .content__description {
   margin: 20px;
+=======
+.aside__container .aside__container--content {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+  align-items: center;
+>>>>>>> fce2315e22413c57715ffc694c342cb9d229d1d4
 }
 
 .heading__mini--skills {
@@ -247,15 +266,22 @@
   text-align: center;
 }
 
+<<<<<<< HEAD
 .profile-image {
+=======
+.profileimage {
+>>>>>>> fce2315e22413c57715ffc694c342cb9d229d1d4
   width: 50%;
   height: auto;
   margin: 7% 17% 5% 17%;
 }
 
+<<<<<<< HEAD
 .paragraph__link {
   color: #ffc900;
 }
+=======
+>>>>>>> fce2315e22413c57715ffc694c342cb9d229d1d4
 .paragraph__content--home, .paragraph__content--aboutme {
   margin-bottom: 14px;
   font-size: 19px;
@@ -264,6 +290,12 @@
 .paragraph__content .about-me {
   color: #ffc900;
 }
+<<<<<<< HEAD
+=======
+.paragraph__content__link {
+  color: #ffc900;
+}
+>>>>>>> fce2315e22413c57715ffc694c342cb9d229d1d4
 
 .footer__container {
   background: #181818;
