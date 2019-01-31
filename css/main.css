@@ -198,7 +198,7 @@
 .slick-slider .slick-next:hover::before,
 .slick-slider .slick-next:focus::before {
   color: white;
-  font-size: 36px;
+  font-size: 35px;
 }
 
 .content__container {
