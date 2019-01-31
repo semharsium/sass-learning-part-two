@@ -253,15 +253,15 @@
   margin: 7% 17% 5% 17%;
 }
 
+.paragraph__link {
+  color: #ffc900;
+}
 .paragraph__content--home, .paragraph__content--aboutme {
   margin-bottom: 14px;
   font-size: 19px;
   line-height: 1.2;
 }
 .paragraph__content .about-me {
-  color: #ffc900;
-}
-.paragraph__content__link {
   color: #ffc900;
 }
 
