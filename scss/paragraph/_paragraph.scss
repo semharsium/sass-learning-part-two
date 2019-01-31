@@ -8,8 +8,12 @@ $pattern: "paragraph";
             font-size: 19px;
             line-height: 1.2;
         }
-    }
+        & .about-me {
+            color: $color;
+        }
+    
         &__link {
             color: $color;
         }
     }
+}

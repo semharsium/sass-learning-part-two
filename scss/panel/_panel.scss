@@ -5,16 +5,5 @@ $pattern:"panel";
     &--active{
         display: block;
         }
-    &__silder-image{
-        .slick-prev, 
-        .slick-next {
-            &::before, 
-            &:hover::before,
-            &:focus::before {
-                color:white;
-                font-size: 35px; 
-            }
-        }
-    }
 }
 

@@ -39,3 +39,14 @@ $pattern: "slick-slide";
     height: 50vw;
   }
 }
+.slick-slider {
+  .slick-prev, 
+  .slick-next {
+      &::before, 
+      &:hover::before,
+      &:focus::before {
+          color:white;
+          font-size: 35px; 
+      }
+  }
+}
