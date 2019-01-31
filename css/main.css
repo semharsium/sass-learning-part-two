@@ -190,8 +190,9 @@
 .slick-slide.slider-image {
   height: 50vw;
 }
-
-.slick-slider .slick-prev::before, .slick-slider .slick-prev:hover::before, .slick-slider .slick-prev:focus::before,
+.slick-slider .slick-prev::before, 
+.slick-slider .slick-prev:hover::before,
+.slick-slider .slick-prev:focus::before,
 .slick-slider .slick-next::before,
 .slick-slider .slick-next:hover::before,
 .slick-slider .slick-next:focus::before {
@@ -209,6 +210,7 @@
 .content__container-text {
   margin: 20px;
 }
+<<<<<<< HEAD
 .content__introduction--short {
   width: 100%;
   height: auto;
@@ -227,7 +229,6 @@
 .content__description {
   margin: 20px;
 }
-
 .heading__mini--skills {
   font-size: 30px;
   font-family: "Bree Serif", "serif";
@@ -252,7 +253,6 @@
   height: auto;
   margin: 7% 17% 5% 17%;
 }
-
 .paragraph__link {
   color: #ffc900;
 }
@@ -264,7 +264,6 @@
 .paragraph__content .about-me {
   color: #ffc900;
 }
-
 .footer__container {
   background: #181818;
   color: white;
