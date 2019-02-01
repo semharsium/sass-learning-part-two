@@ -1,20 +1,20 @@
-@import '../variables';
+@import "../variables";
 
 $pattern: "heading";
 
 .#{$pattern} {
-    &__mini{
-        font-family: $font-heading;
-        margin-bottom: 14px;
-    }
-    &__mini--skills, 
-    &--shortdescription, 
-    &--aboutme{
-        font-size: 30px;
-        font-family: $font-heading;
+  &__mini {
+    font-family: $font-heading;
+    margin-bottom: 14px;
+    &--skills,
+    &--shortdescription,
+    &--aboutme {
+      font-size: 30px;
+      font-family: $font-heading;
     }
     &--project {
-        font-size: 40px;
-        text-align: center;
-        }
+      font-size: 40px;
+      text-align: center;
+    }
+  }
 }
