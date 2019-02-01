@@ -1,30 +1,29 @@
-@import "../variables";
+@import '../variables';
 
 $pattern: "heading";
 
 .#{$pattern} {
-  &__mini--skills,
-  &__mini--activities {
-    font-size: 30px;
-    font-family: $font-heading;
-  }
-  .#{$pattern} {
-    &__mini {
-      font-family: $font-heading;
-      margin-bottom: 14px;
-
-      &--shortdescription {
+    &__mini--skills{
         font-size: 30px;
-      }
-
-      &--aboutme {
-        font-size: 22px;
-      }
-
-      &--project {
-        font-size: 40px;
-        text-align: center;
-      }
+        font-family: $font-heading;
     }
-  }
+    .#{$pattern} {
+        &__mini {
+            font-family: $font-heading;
+            margin-bottom: 14px;
+
+            &--shortdescription {
+                font-size: 30px;     
+            }
+
+            &--aboutme{     
+                font-size: 22px;
+            }
+
+            &--project {
+                font-size: 40px;
+                text-align: center;
+            }
+        }
+    }
 }
