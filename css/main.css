@@ -191,9 +191,7 @@
   height: 50vw;
 }
 
-.slick-slider .slick-prev::before,
-.slick-slider .slick-prev:hover::before,
-.slick-slider .slick-prev:focus::before,
+.slick-slider .slick-prev::before, .slick-slider .slick-prev:hover::before, .slick-slider .slick-prev:focus::before,
 .slick-slider .slick-next::before,
 .slick-slider .slick-next:hover::before,
 .slick-slider .slick-next:focus::before {
@@ -230,23 +228,19 @@
   margin: 20px;
 }
 
-.heading__mini--skills,
-.heading__mini--activities {
+.heading__mini {
+  font-family: "Bree Serif", "serif";
+}
+.heading__mini--skills, .heading__mini--shortdescription, .heading__mini--aboutme, .heading__mini--activities {
   font-size: 30px;
   font-family: "Bree Serif", "serif";
 }
-.heading .heading__mini {
-  font-family: "Bree Serif", "serif";
-  margin-bottom: 14px;
-}
-.heading .heading__mini--shortdescription {
-  font-size: 30px;
-}
-.heading .heading__mini--aboutme {
-  font-size: 22px;
-}
-.heading .heading__mini--project {
+.heading__mini--project {
   font-size: 40px;
+  text-align: center;
+}
+.heading__mini--professional, .heading__mini--further-education, .heading__mini--education {
+  font-size: 20px;
   text-align: center;
 }
 
@@ -259,8 +253,7 @@
 .paragraph__link {
   color: #ffc900;
 }
-.paragraph__content--home,
-.paragraph__content--aboutme {
+.paragraph__content--home, .paragraph__content--aboutme {
   margin-bottom: 14px;
   font-size: 19px;
   line-height: 1.2;
@@ -315,16 +308,19 @@
 .panel--active {
   display: block;
 }
-.activities__professtional--works, 
-.activities__further-education--courses,
-.activities__education--levels .activities--lists {
+
+.activities__professtional--works, .activities__further-education--courses, .activities__education--levels {
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 1.2;
   width: 100%;
   text-align: center;
   margin: auto;
   margin-top: 60px;
   margin-bottom: 30px;
+}
+.activities--lists {
+  margin: 20px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=main.css.map */
