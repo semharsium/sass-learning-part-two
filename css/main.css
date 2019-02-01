@@ -315,16 +315,10 @@
 .panel--active {
   display: block;
 }
-
-<<<<<<< HEAD
-.activities__professtional--works,
-.activities__further-education--courses,
-.activities__education--levels .activities--lists {
-=======
 .activities__professtional--works, 
 .activities__further-education--courses,
- .activities__education--levels .activities--lists {
->>>>>>> newchanges
+.activities__education--levels .activities--lists {
+
   font-size: 20px;
   line-height: 1.5;
   width: 100%;
