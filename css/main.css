@@ -228,7 +228,7 @@
   margin: 20px;
 }
 
-.heading__mini--skills {
+.heading__mini--skills, .heading__mini--activities {
   font-size: 30px;
   font-family: "Bree Serif", "serif";
 }
@@ -312,7 +312,7 @@
   display: block;
 }
 
-.activities.professtional-works, .activities.further-education-courses, .activities.education-levels {
+.panel.professtional--works, .panel.further-education--courses, .panel.education--levels {
   font-size: 20px;
   line-height: 1.5;
   width: 100%;
@@ -321,7 +321,7 @@
   margin-top: 60px;
   margin-bottom: 30px;
 }
-.activities--lists {
+.panel--lists {
   margin: 20px;
 }
 
