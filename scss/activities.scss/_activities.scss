@@ -1,9 +1,9 @@
 $pattern: "activities";
 
 .#{$pattern}{
-    &.professtional--works,
-    &.further-education--courses,
-    &.education--levels{
+    &__professtional--works,
+    &__further-education--courses,
+    &__education--levels{
         font-size: 20px;
         line-height: 1.5;
         width: 100%;
