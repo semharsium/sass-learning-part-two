@@ -191,9 +191,7 @@
   height: 50vw;
 }
 
-.slick-slider .slick-prev::before, 
-.slick-slider .slick-prev:hover::before, 
-.slick-slider .slick-prev:focus::before,
+.slick-slider .slick-prev::before, .slick-slider .slick-prev:hover::before, .slick-slider .slick-prev:focus::before,
 .slick-slider .slick-next::before,
 .slick-slider .slick-next:hover::before,
 .slick-slider .slick-next:focus::before {
@@ -228,11 +226,8 @@
 }
 .content__description {
   margin: 20px;
-  width: 100%;
-  height: auto;
-  margin-top: 50px;
-  align-items: center;
 }
+
 .heading__mini--skills {
   font-size: 30px;
   font-family: "Bree Serif", "serif";
@@ -251,11 +246,13 @@
   font-size: 40px;
   text-align: center;
 }
+
 .profile-image {
   width: 50%;
   height: auto;
   margin: 7% 17% 5% 17%;
 }
+
 .paragraph__link {
   color: #ffc900;
 }
@@ -267,9 +264,7 @@
 .paragraph__content .about-me {
   color: #ffc900;
 }
-.paragraph__content__link {
-  color: #ffc900;
-}
+
 .footer__container {
   background: #181818;
   color: white;
@@ -315,6 +310,18 @@
 }
 .panel--active {
   display: block;
+}
+
+.activities.professtional-works, 
+.activities.further-education-courses, 
+.activities.education-levels {
+  font-size: 20px;
+  line-height: 1.5;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 30px;
 }
 
 /*# sourceMappingURL=main.css.map */
