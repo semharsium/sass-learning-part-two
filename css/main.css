@@ -312,7 +312,11 @@
   display: block;
 }
 
+<<<<<<< HEAD
 .activities.professtional--works, .activities.further-education--courses, .activities.education--levels {
+=======
+.activities__professtional--works, .activities__further-education--courses, .activities__education--levels .activities--lists {
+>>>>>>> newchanges
   font-size: 20px;
   line-height: 1.5;
   width: 100%;
@@ -321,8 +325,11 @@
   margin-top: 60px;
   margin-bottom: 30px;
 }
+<<<<<<< HEAD
 .activities--lists {
   margin: 20px;
 }
+=======
+>>>>>>> newchanges
 
 /*# sourceMappingURL=main.css.map */
