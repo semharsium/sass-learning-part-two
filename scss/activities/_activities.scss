@@ -1,0 +1,15 @@
+$pattern:"activities";
+
+.#{$pattern}{
+    &.professtional-works,
+    &.further-education-courses,
+    &.education-levels{
+        font-size: 20px;
+        line-height: 1.5;
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+}
