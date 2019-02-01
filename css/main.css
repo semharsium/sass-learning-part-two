@@ -231,7 +231,10 @@
 .heading__mini {
   font-family: "Bree Serif", "serif";
 }
-.heading__mini--skills, .heading__mini--shortdescription, .heading__mini--aboutme, .heading__mini--activities {
+.heading__mini--skills,
+.heading__mini--shortdescription, 
+.heading__mini--aboutme, 
+.heading__mini--activities {
   font-size: 30px;
   font-family: "Bree Serif", "serif";
 }
@@ -239,7 +242,9 @@
   font-size: 40px;
   text-align: center;
 }
-.heading__mini--professional, .heading__mini--further-education, .heading__mini--education {
+.heading__mini--professional, 
+.heading__mini--further-education, 
+.heading__mini--education {
   font-size: 20px;
   text-align: center;
 }
