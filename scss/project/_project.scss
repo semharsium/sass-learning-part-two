@@ -1,0 +1,28 @@
+$pattern: "project";
+
+.#{$pattern}{
+    &-view{
+        width: $width;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-bottom: 88px;
+        
+        &__gallery{
+            display: flex;
+            height: $height;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            transition: transform .3s;
+            margin: 4px;
+            }
+        }
+    &__image{
+        margin-top: 40px;
+        width: 100%;
+        height: auto;
+        border-radius: 50%;
+    }
+}
