@@ -126,40 +126,6 @@
   .cross {
     display: none;
   }
-
-  .header {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    border-bottom: 4px solid #ffc900;
-  }
-  .header__navigation {
-    text-align: center;
-    background-color: black;
-    width: 100%;
-  }
-  .header__navigation .navigation__menu {
-    background-color: #181818;
-    padding-top: 0px;
-    padding-inline-start: unset;
-    margin: 0;
-  }
-  .header .heading {
-    font-size: 25px;
-    white-space: nowrap;
-    font-weight: 600;
-    cursor: pointer;
-    color: white;
-    line-height: 1.5;
-    border-bottom: 1px solid black;
-    font-family: "Roboto Mono", monospace;
-    margin: 0;
-  }
-  .header .heading:hover {
-    text-decoration: underline;
-    color: #ffc900;
-  }
 }
 .navigation__item-container {
   padding-inline-start: 0;
@@ -267,7 +233,9 @@
 .heading__mini {
   font-family: "Bree Serif", "serif";
 }
-.heading__mini--skills, .heading__mini--shortdescription, .heading__mini--aboutme, .heading__mini--activities {
+.heading__mini--skills, 
+.heading__mini--shortdescription, 
+.heading__mini--aboutme, .heading__mini--activities {
   font-size: 30px;
   font-family: "Bree Serif", "serif";
 }
