@@ -126,47 +126,6 @@
   .cross {
     display: none;
   }
-
-  .header {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    border-bottom: 4px solid #ffc900;
-  }
-  .header__navigation {
-    text-align: center;
-    background-color: black;
-    width: 100%;
-  }
-  .header__navigation .navigation__menu {
-    display: block;
-    background-color: black;
-    padding-top: 10px;
-  }
-  .header__menu {
-    font-size: 25px;
-    white-space: nowrap;
-    font-weight: 600;
-    cursor: pointer;
-    color: white;
-    line-height: 1.5;
-    border-bottom: 1px solid black;
-    font-family: "Open Sans Condensed", sans-serif;
-    font-family: "Roboto Mono", monospace;
-  }
-  .header__menu:hover {
-    text-decoration: underline;
-    color: #ffc900;
-  }
-  .header-logo {
-    z-index: 1;
-    position: absolute;
-    top: 50%;
-    left: 36px;
-    width: 63px;
-    transform: translateY(-50%);
-  }
 }
 .navigation__item-container {
   padding-inline-start: 0;
@@ -272,10 +231,7 @@
 .heading__mini {
   font-family: "Bree Serif", "serif";
 }
-.heading__mini--skills, 
-.heading__mini--shortdescription, 
-.heading__mini--aboutme, 
-.heading__mini--activities {
+.heading__mini--skills, .heading__mini--shortdescription, .heading__mini--aboutme, .heading__mini--activities {
   font-size: 30px;
   font-family: "Bree Serif", "serif";
 }
@@ -284,9 +240,7 @@
   text-align: center;
   font-family: "Bree Serif", "serif";
 }
-.heading__mini--professional, 
-.heading__mini--further-education, 
-.heading__mini--education {
+.heading__mini--professional, .heading__mini--further-education, .heading__mini--education {
   font-size: 20px;
   text-align: center;
   font-family: "Bree Serif", "serif";
@@ -363,6 +317,30 @@
   width: 100%;
   margin: 20px;
   text-align: center;
+}
+
+.project-view {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-bottom: 88px;
+}
+.project-view__gallery {
+  display: flex;
+  height: auto;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s;
+  margin: 4px;
+}
+.project__image {
+  margin-top: 40px;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
 }
 
 /*# sourceMappingURL=main.css.map */
