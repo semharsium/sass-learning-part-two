@@ -309,19 +309,12 @@
   display: block;
 }
 
-.activities__professtional--works, .activities__further-education--courses, .activities__education--levels {
-  font-size: 20px;
+.activities--lists {
+  font-size: 18px;
   line-height: 1.2;
   width: 100%;
-  text-align: center;
-  margin: auto;
-  margin-top: 60px;
-  margin-bottom: 30px;
-}
-.activities--lists {
   margin: 20px;
   text-align: center;
-  font-size: 29px;
 }
 
 /*# sourceMappingURL=main.css.map */
