@@ -106,4 +106,51 @@
   .cross {
     display: none;
   }
+  .header {
+    width: $width;
+    height: $height;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 4px solid $color;
+
+    &__navigation {
+      text-align: center;
+      background-color: $background-color;
+      width: $width;
+
+      & .navigation {
+        &__menu {
+          display: block;
+          background-color: $background-color;
+          padding-top: 10px;
+        }
+      }
+    }
+
+    &__menu {
+      font-size: 25px;
+      white-space: nowrap;
+      font-weight: 600;
+      cursor: pointer;
+      color: white;
+      line-height: 1.5;
+      border-bottom: 1px solid black;
+      font-family: "Open Sans Condensed", sans-serif;
+      font-family: "Roboto Mono", monospace;
+
+      &:hover {
+        text-decoration: underline;
+        color: $color;
+      }
+    }
+
+    &-logo {
+      z-index: 1;
+      position: absolute;
+      top: 50%;
+      left: 36px;
+      width: 63px;
+      transform: translateY(-50%);
+    }
+  }
 }
