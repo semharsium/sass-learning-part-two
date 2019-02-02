@@ -90,7 +90,7 @@
     width: 100%;
   }
   .header__navigation .navigation__menu {
-    display: none;
+    display: block;
     background-color: black;
     padding-top: 10px;
   }
@@ -125,6 +125,47 @@
 
   .cross {
     display: none;
+  }
+
+  .header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 4px solid #ffc900;
+  }
+  .header__navigation {
+    text-align: center;
+    background-color: black;
+    width: 100%;
+  }
+  .header__navigation .navigation__menu {
+    display: block;
+    background-color: black;
+    padding-top: 10px;
+  }
+  .header__menu {
+    font-size: 25px;
+    white-space: nowrap;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    line-height: 1.5;
+    border-bottom: 1px solid black;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-family: "Roboto Mono", monospace;
+  }
+  .header__menu:hover {
+    text-decoration: underline;
+    color: #ffc900;
+  }
+  .header-logo {
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 36px;
+    width: 63px;
+    transform: translateY(-50%);
   }
 }
 .navigation__item-container {
@@ -238,10 +279,12 @@
 .heading__mini--project {
   font-size: 40px;
   text-align: center;
+  font-family: "Bree Serif", "serif";
 }
 .heading__mini--professional, .heading__mini--further-education, .heading__mini--education {
   font-size: 20px;
   text-align: center;
+  font-family: "Bree Serif", "serif";
 }
 
 .profile-image {
