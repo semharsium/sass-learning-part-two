@@ -310,6 +310,9 @@
 .panel--active {
   display: block;
 }
+.panel--project {
+  margin: 20px;
+}
 
 .activities--lists {
   font-size: 18px;
