@@ -20,6 +20,8 @@ $pattern:"content";
         margin-bottom: 30px;
     }
     &__description{
-        margin: 20px;
+        margin: 20px;    
+        width: 84%;
+        height: $height;
     }
 }
