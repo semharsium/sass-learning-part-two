@@ -307,11 +307,11 @@
     flex-wrap: nowrap;
     padding-left: unset;
   }
-  .content__container__description--aboutme {
-    width: 40%;
+  .content__description--aboutme {
+    width: 84%;
     height: auto;
     margin-left: unset;
-    margin-top: 39px;
+    margin-top: 80px;
   }
 }
 .heading__mini {
@@ -430,7 +430,6 @@
     width: 100%;
     text-align: center;
     margin: auto;
-    margin-top: 200px;
     margin-bottom: 30px;
   }
 }
