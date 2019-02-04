@@ -20,9 +20,11 @@ $pattern: "content";
     margin-bottom: 30px;
   }
   &__description {
-    margin: 20px;
-    width: 84%;
-    height: $height;
+    &--aboutme {
+      margin: 20px;
+      width: 84%;
+      height: $height;
+    }
   }
 }
 
@@ -35,12 +37,27 @@ $pattern: "content";
       margin-top: 60px;
       margin-bottom: 30px;
     }
-    &__container--project {
-      width: 100%;
-      min-height: 100vh;
+    &__container {
       display: flex;
       flex-wrap: nowrap;
       padding-left: unset;
+      padding-top: 60px;
+
+      &--project {
+        width: 100%;
+        min-height: 0px;
+        display: flex;
+        flex-wrap: nowrap;
+        padding-left: unset;
+      }
+      &__description {
+        &--aboutme {
+          width: 40%;
+          height: auto;
+          margin-left: unset;
+          margin-top: 39px;
+        }
+      }
     }
   }
 }

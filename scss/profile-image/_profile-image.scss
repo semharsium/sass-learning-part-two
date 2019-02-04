@@ -3,3 +3,12 @@
     height: auto;
     margin: 7% 17% 5% 17%;
   }
+
+  @include xlarge-up{
+    .profile-image{
+      &--me{
+        width: 50%;
+        height: auto;
+      }
+    }
+  }
