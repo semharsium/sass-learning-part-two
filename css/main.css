@@ -281,7 +281,7 @@
 }
 
 @media screen and (min-width: 700px) {
-  .content__introduction-short {
+  .content__introduction--short {
     width: 100%;
     text-align: center;
     margin: auto;
