@@ -18,3 +18,13 @@ $pattern: "heading";
     }
   }
 }
+
+@include xlarge-up {
+  .#{$pattern} {
+    &__mini--aboutme {
+      margin-bottom: 57px;
+      font-size: 34px;
+      font-family: "Bree Serif", serif;
+    }
+  }
+}

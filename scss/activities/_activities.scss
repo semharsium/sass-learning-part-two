@@ -1,19 +1,19 @@
 $pattern: "activities";
 
-.#{$pattern}{
-    &__professtional--works,
-    &__further-education--courses,
-    &__education--levels{
-        font-size: 20px;
-        line-height: 1.2;
-        width: 100%;
-        text-align: center;
-        margin: auto;
-        margin-top: 60px;
-        margin-bottom: 30px;
-    }
-    &--lists{
-        margin: 20px;
-        font-size: 29px;
-    }
+.#{$pattern} {
+  &__professtional--works,
+  &__further-education--courses,
+  &__education--levels {
+    font-size: 20px;
+    line-height: 1.2;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+  &--lists {
+    margin: 20px;
+    font-size: 29px;
+  }
 }
