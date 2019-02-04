@@ -50,3 +50,11 @@ $pattern: "slick-slide";
       }
   }
 }
+
+@include xlarge-up{
+  .#{$pattern}{
+    &.slider-image{
+      height: 37vw;
+    }
+  }
+}
