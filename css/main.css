@@ -288,6 +288,13 @@
     margin-top: 60px;
     margin-bottom: 30px;
   }
+  .content__container--project {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: unset;
+  }
 }
 .heading__mini {
   font-family: "Bree Serif", "serif";
@@ -405,6 +412,22 @@
   width: 100%;
   height: auto;
   border-radius: 50%;
+}
+
+@media screen and (min-width: 700px) {
+  .project-view {
+    flex-direction: row;
+    margin-bottom: unset;
+  }
+  .project-view__gallery {
+    flex-basis: 30%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s;
+    margin: 4px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
