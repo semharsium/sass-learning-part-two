@@ -1,38 +1,39 @@
-$pattern:"content";
+$pattern: "content";
 
-.#{$pattern}{
-    &__container-text{
-        margin: 20px;
-    }
-    &__introduction--short{
-        width: 100%;
-        height: auto;
-        margin-top: 50px;
-        text-align: center;
-    }
-    &__skills--lists{
-        font-size: 20px;
-        line-height: 1.5;
-        width: 100%;
-        text-align: center;
-        margin: auto;
-        margin-top: 60px;
-        margin-bottom: 30px;
-    }
-    &__description{
-        margin: 20px;    
-        width: 84%;
-        height: $height;
-    }
+.#{$pattern} {
+  &__container-text {
+    margin: 20px;
+  }
+  &__introduction--short {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    text-align: center;
+  }
+  &__skills--lists {
+    font-size: 20px;
+    line-height: 1.5;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+  &__description {
+    margin: 20px;
+    width: 84%;
+    height: $height;
+  }
 }
-@include xlarge-up{
-    .#{$pattern}{
-        &__introduction--short{
-            width: $width;
-            text-align: center;
-            margin: auto;
-            margin-top: 60px;
-            margin-bottom: 30px;
-        }
+
+@include xlarge-up {
+  .#{$pattern} {
+    &__introduction--short {
+      width: 50%;
+      text-align: center;
+      margin: auto;
+      margin-top: 60px;
+      margin-bottom: 30px;
     }
+  }
 }
