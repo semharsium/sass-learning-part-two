@@ -27,7 +27,7 @@ $pattern:"content";
 }
 @include xlarge-up{
     .#{$pattern}{
-        &__introduction-short{
+        &__introduction--short{
             width: $width;
             text-align: center;
             margin: auto;
