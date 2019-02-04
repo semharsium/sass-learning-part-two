@@ -52,14 +52,14 @@ $pattern: "content";
         flex-wrap: nowrap;
         padding-left: unset;
       }
-      &__description {
+    }
+    &__description {
         &--aboutme {
-          width: 40%;
+          width: 84%;
           height: auto;
           margin-left: unset;
-          margin-top: 39px;
+          margin-top: 80px;
         }
       }
-    }
   }
 }
