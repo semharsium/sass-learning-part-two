@@ -320,6 +320,7 @@
 .heading__mini--skills, .heading__mini--shortdescription, .heading__mini--aboutme, .heading__mini--activities {
   font-size: 30px;
   font-family: "Bree Serif", "serif";
+  color: #ffc900;
 }
 .heading__mini--project {
   font-size: 40px;
