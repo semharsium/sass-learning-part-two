@@ -25,3 +25,14 @@ $pattern:"content";
         height: $height;
     }
 }
+@include xlarge-up{
+    .#{$pattern}{
+        &__introduction-short{
+            width: $width;
+            text-align: center;
+            margin: auto;
+            margin-top: 60px;
+            margin-bottom: 30px;
+        }
+    }
+}
